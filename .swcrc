@@ -1,17 +1,9 @@
 {
   "jsc": {
     "parser": {
-      "syntax": "typescript",
-      "tsx": true,
-      "dynamicImport": true
+      "syntax": "typescript"
     },
-    "target": "es2021",
-    "transform": {
-      "react": {
-        "runtime": "automatic",
-        "refresh": true
-      }
-    }
+    "target": "es2021"
   },
   "module": {
     "type": "es6"
